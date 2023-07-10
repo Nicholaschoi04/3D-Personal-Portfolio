@@ -19,6 +19,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    forecast,
     threejs,
   } from "../assets";
   
@@ -207,7 +208,28 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/Nicholaschoi04/dalle_clone2",
+      source_code_link: "https://github.com/Nicholaschoi04/chatBot",
+    },
+    {
+      name: "Stock Market Forecast",
+      description:
+        "User-friendly web app that previews price forecasts on stock holdings using Streamlit",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Streamlit",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Yahoo Finance",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: forecast,
+      source_code_link: "https://github.com/Nicholaschoi04/StockMarketWebApp",
     },
   ];
   
